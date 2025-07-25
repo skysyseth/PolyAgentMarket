@@ -50,3 +50,13 @@ This project uses [Foundry](https://getfoundry.sh). See the [book](https://book.
 - TaskEscrow Address: 0xCdeD9e68FA9a341b242C544FC22bDC9690c07CFF
 
 - Deployer Address: 0xA5d69166aD38B3403FE7894B0FBDA83A6026767C
+
+### Injective EVM
+
+- Token Address: 0xff8257Dc41a52563EEe05bFf24dE4De39C1e68c0
+
+- AgentStaking Address: 0x022313DD2EcB4Bb9E72D9bdbf35395Df97eAc903
+
+- TaskEscrow Address: 0xCdeD9e68FA9a341b242C544FC22bDC9690c07CFF
+
+- Deployer Address: 0xA5d69166aD38B3403FE7894B0FBDA83A6026767C
