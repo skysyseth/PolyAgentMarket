@@ -1,0 +1,25 @@
+# Cloudflare Pages 构建配置
+# 此配置专门用于前端部署，避免子模块问题
+
+[build]
+  # 构建命令：只构建前端，忽略子模块
+  command = "cd frontend && npm ci && npm run build"
+  
+  # 构建输出目录
+  publish = "frontend/build"
+  
+  # 忽略 Git 子模块
+  ignore = "git submodule foreach --recursive git clean -ffdx && git submodule foreach --recursive git reset --hard"
+
+[build.environment]
+  # Node.js 版本
+  NODE_VERSION = "18"
+  
+  # NPM 配置
+  NPM_CONFIG_PRODUCTION = "false"
+
+# 重定向规则
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 
