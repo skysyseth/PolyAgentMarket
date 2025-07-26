@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @layer theme, base, paraflow, components, utilities;
+    </style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://static.paraflowcontent.com/public/css/font-awesome/font-awesome.672.css">
+    <script src="https://static.paraflowcontent.com/public/js/tailwind/tailwind.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+
+    <script src="https://static.paraflowcontent.com/public/js/tailwind/tailwind.js"></script>
+</head>
+
+<body id="12:0" orderindex="88" class="BODY-9d693159425c9444dd78ead63a0ba315 w-[1440px] min-h-[900px]"
+    style="font-family: 'Menlo', 'Consolas', 'Courier New', 'Hannotate SC', 'DengXian', monospace; line-height: 1.4;"
+    title="B端撮合展示页" worldtransform="7680.19287109375, 0.0">
+    <header id="12:1" orderindex="80"
+        class="border-b-solid flex justify-between items-center w-full h-[80px] pr-8 pl-8 border-b-solid border-b-[2px]"
+        style="border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+        <div id="12:2" orderindex="80" class="flex items-center">
+            <div id="12:3" orderindex="80"
+                class="pixel-pattern border-t-solid border-r-solid border-b-solid border-l-solid flex justify-center items-center w-[48px] h-[48px] mr-4 border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                style="border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                <i id="12:4" orderindex="80" class="fas fa-cube text-[24px]"></i></div>
+            <h1 id="12:5" orderindex="81" class="pixel-title text-[20px] font-bold" style="text-transform: uppercase;">
+                PolyAgent Market</h1>
+        </div>
+        <div id="12:6" orderindex="81"
+            class="card-shadow border-t-solid border-r-solid border-b-solid border-l-solid flex items-center h-[48px] border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+            style="background-color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+            <div id="12:7" orderindex="80" style="background-color: rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1);"
+                class="flex justify-center items-center h-full pr-4 pl-4"><i id="12:8" orderindex="80"
+                    class="fas fa-network-wired mr-2"></i><span id="12:9" orderindex="81"
+                    class="text-[14px] font-bold">撮合演示</span></div>
+        </div>
+    </header>
+    <main id="12:10" orderindex="81" class="flex flex-col items-center w-full pt-8 pr-8 pb-8 pl-8">
+        <div id="12:11" orderindex="80" class="text-center w-full mb-8">
+            <h2 id="12:12" orderindex="80" class="pixel-title mb-2 text-[28px] font-bold"
+                style="text-transform: uppercase;">任务撮合可视化</h2>
+            <div id="12:13" orderindex="81"
+                style="background-color: rgba(0, 0, 0, 1); margin-right: auto; margin-left: auto;"
+                class="w-[300px] h-[2px]"></div>
+        </div>
+        <div id="12:14" orderindex="81"
+            class="pixel-animation-container card-shadow flex flex-col w-[900px] h-[500px] mb-8"
+            style="background-color: rgba(255, 255, 255, 1);">
+            <div id="12:15" orderindex="80"
+                class="border-b-solid flex items-center h-[50px] pr-4 pl-4 border-b-solid border-b-[2px]"
+                style="background-color: rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                <h3 id="12:16" orderindex="80" style="text-transform: uppercase;" class="text-[16px] font-bold">撮合过程模拟
+                </h3>
+                <div id="12:17" orderindex="81" style="margin-left: auto;" class="flex items-center"><span id="12:18"
+                        orderindex="80" class="mr-2 text-[12px]">撮合状态:</span><span id="12:19" orderindex="81"
+                        style="color: rgba(0, 255, 0, 1);" class="text-[12px] font-bold">进行中</span></div>
+            </div>
+            <div id="12:20" orderindex="81" style="flex-basis: 0%;" class="relative grow shrink pt-4 pr-4 pb-4 pl-4">
+                <div id="12:21" orderindex="80" class="relative w-full h-full">
+                    <div id="12:22" orderindex="80"
+                        class="node flex absolute top-[100px] left-[100px] flex-col items-center">
+                        <div id="12:23" orderindex="80"
+                            class="pixel-pattern border-t-solid border-r-solid border-b-solid border-l-solid flex justify-center items-center w-[64px] h-[64px] border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                            style="background-color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                            <i id="12:24" orderindex="80" class="fas fa-user text-[32px]"></i></div><span id="12:25"
+                            orderindex="81" class="node-label mt-2">C端用户</span>
+                    </div>
+                    <div id="12:26" orderindex="81"
+                        class="node flex absolute top-[80px] right-[80px] flex-col items-center">
+                        <div id="12:27" orderindex="80"
+                            class="pixel-pattern border-t-solid border-r-solid border-b-solid border-l-solid flex justify-center items-center w-[50px] h-[50px] border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                            style="background-color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                            <i id="12:28" orderindex="80" class="fas fa-server text-[24px]"></i></div><span id="12:29"
+                            orderindex="81" class="node-label mt-2">节点 A</span>
+                    </div>
+                    <div id="12:30" orderindex="82"
+                        class="node flex absolute top-[160px] right-[180px] flex-col items-center">
+                        <div id="12:31" orderindex="80"
+                            class="pixel-pattern border-t-solid border-r-solid border-b-solid border-l-solid flex justify-center items-center w-[50px] h-[50px] border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                            style="background-color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                            <i id="12:32" orderindex="80" class="fas fa-server text-[24px]"></i></div><span id="12:33"
+                            orderindex="81" class="node-label mt-2">节点 B</span>
+                    </div>
+                    <div id="12:34" orderindex="83"
+                        class="node flex absolute top-[240px] right-[100px] flex-col items-center">
+                        <div id="12:35" orderindex="80"
+                            class="pixel-pattern border-t-solid border-r-solid border-b-solid border-l-solid flex justify-center items-center w-[50px] h-[50px] border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                            style="background-color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                            <i id="12:36" orderindex="80" class="fas fa-server text-[24px]"></i></div><span id="12:37"
+                            orderindex="81" class="node-label mt-2">节点 C</span>
+                    </div>
+                    <div id="12:38" orderindex="84"
+                        class="node flex absolute top-[300px] right-[230px] flex-col items-center">
+                        <div id="12:39" orderindex="80"
+                            class="pixel-pattern border-t-solid border-r-solid border-b-solid border-l-solid flex justify-center items-center w-[50px] h-[50px] border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                            style="background-color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                            <i id="12:40" orderindex="80" class="fas fa-server text-[24px]"></i></div><span id="12:41"
+                            orderindex="81" class="node-label mt-2">节点 D</span>
+                    </div>
+                    <div id="12:42" orderindex="85" class="message absolute top-[120px] left-[170px] w-[12px] h-[12px]"
+                        style="background-color: rgba(0, 0, 0, 1);"></div>
+                    <div id="12:43" orderindex="86" style="background-color: rgba(0, 0, 0, 1);"
+                        class="absolute top-[130px] left-[140px] w-[200px] h-[2px]"></div>
+                    <div id="12:44" orderindex="87"
+                        style="background-color: rgba(0, 0, 0, 1); transform: translate(0, 0.194888px);"
+                        transform="translate(0, 0.194888px)"
+                        class="absolute top-[150px] left-[180px] rotate-12 w-[180px] h-[2px]"></div>
+                    <div id="12:45" orderindex="88" style="background-color: rgba(0, 0, 0, 1);"
+                        class="absolute top-[140px] left-[160px] -rotate-12 w-[240px] h-[2px]"></div>
+                    <div id="12:46" orderindex="89" style="background-color: rgba(0, 0, 0, 1);"
+                        class="absolute top-[125px] right-[120px] rotate-45 w-[80px] h-[2px]"></div>
+                    <div id="12:47" orderindex="8a"
+                        style="background-color: rgba(0, 0, 0, 1); transform: translate(30.779px, 14.8234px);"
+                        transform="translate(30.779px, 14.8234px)"
+                        class="absolute top-[190px] right-[150px] rotate-45 w-[50px] h-[2px]"></div>
+                    <div id="12:48" orderindex="8b"
+                        style="background-color: rgba(0, 0, 0, 1); transform: translate(9.44544px, 45.5996px);"
+                        transform="translate(9.44544px, 45.5996px)"
+                        class="absolute top-[270px] right-[180px] -rotate-25 w-[70px] h-[2px]"></div>
+                </div>
+            </div>
+            <div id="12:49" orderindex="82" class="pixel-pattern border-t-solid h-[8px] border-t-solid border-t-[2px]"
+                style="border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+            </div>
+        </div>
+        <div id="12:50" orderindex="82" class="flex gap-y-4 gap-x-4 w-[900px]">
+            <div id="12:51" orderindex="80"
+                class="card-shadow border-t-solid border-r-solid border-b-solid border-l-solid grow shrink border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                style="background-color: rgba(255, 255, 255, 1); flex-basis: 0%; border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                <div id="12:52" orderindex="80"
+                    class="border-b-solid flex items-center h-[40px] pr-4 pl-4 border-b-solid border-b-[2px]"
+                    style="background-color: rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                    <h4 id="12:53" orderindex="80" style="text-transform: uppercase;" class="text-[14px] font-bold">撮合状态
+                    </h4>
+                </div>
+                <div id="12:54" orderindex="81" class="pt-4 pr-4 pb-4 pl-4">
+                    <div id="12:55" orderindex="80" class="flex items-center mb-2">
+                        <div id="12:56" orderindex="80" style="background-color: rgba(0, 0, 0, 1);"
+                            class="w-[16px] h-[16px] mr-2"></div><span id="12:57" orderindex="81"
+                            class="text-[14px] font-bold">阶段 1: 任务广播</span><i id="12:58" orderindex="82"
+                            class="fas fa-circle-check ml-2" style="color: rgba(0, 166, 62, 1);"></i>
+                    </div>
+                    <div id="12:59" orderindex="81" class="flex items-center mb-2">
+                        <div id="12:60" orderindex="80" style="background-color: rgba(0, 0, 0, 1);"
+                            class="w-[16px] h-[16px] mr-2"></div><span id="12:61" orderindex="81"
+                            class="text-[14px] font-bold">阶段 2: 节点响应</span><i id="12:62" orderindex="82"
+                            class="fas fa-spin fa-spinner ml-2"></i>
+                    </div>
+                    <div id="12:63" orderindex="82" class="flex items-center mb-2">
+                        <div id="12:64" orderindex="80"
+                            class="border-t-solid border-r-solid border-b-solid border-l-solid w-[16px] h-[16px] mr-2 border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                            style="border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                        </div><span id="12:65" orderindex="81" class="text-[14px]">阶段 3: 组队阶段</span>
+                    </div>
+                    <div id="12:66" orderindex="83" class="flex items-center mb-2">
+                        <div id="12:67" orderindex="80"
+                            class="border-t-solid border-r-solid border-b-solid border-l-solid w-[16px] h-[16px] mr-2 border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                            style="border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                        </div><span id="12:68" orderindex="81" class="text-[14px]">阶段 4: 节点撮合</span>
+                    </div>
+                    <div id="12:69" orderindex="84" class="flex items-center">
+                        <div id="12:70" orderindex="80"
+                            class="border-t-solid border-r-solid border-b-solid border-l-solid w-[16px] h-[16px] mr-2 border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                            style="border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                        </div><span id="12:71" orderindex="81" class="text-[14px]">阶段 5: 结果反馈</span>
+                    </div>
+                </div>
+            </div>
+            <div id="12:72" orderindex="81"
+                class="card-shadow border-t-solid border-r-solid border-b-solid border-l-solid grow shrink border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                style="background-color: rgba(255, 255, 255, 1); flex-basis: 0%; border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                <div id="12:73" orderindex="80"
+                    class="border-b-solid flex items-center h-[40px] pr-4 pl-4 border-b-solid border-b-[2px]"
+                    style="background-color: rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                    <h4 id="12:74" orderindex="80" style="text-transform: uppercase;" class="text-[14px] font-bold">当前描述
+                    </h4>
+                </div>
+                <div id="12:75" orderindex="81" class="pt-4 pr-4 pb-4 pl-4">
+                    <div id="12:76" orderindex="80" class="description-box text-[14px]">
+                        <p id="12:77" orderindex="80">C端用户已发出任务请求，内容正在广播至B端节点网络。</p>
+                        <p id="12:78" orderindex="81" class="mt-2">节点A、B、C和D已接收到任务信息，正在评估任务需求与自身能力的匹配度。</p>
+                        <p id="12:79" orderindex="82" class="mt-2">预计将有3-4个节点响应此次任务请求。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="12:80" orderindex="83" class="flex justify-between w-[900px] mt-8"><button id="12:81" orderindex="80"
+                class="card-shadow border-t-solid border-r-solid border-b-solid border-l-solid flex justify-center items-center w-[200px] h-[50px] border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px] text-[16px] font-bold"
+                style="background-color: rgba(255, 255, 255, 1); text-transform: uppercase; opacity: 50%; border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);"><i
+                    id="12:82" orderindex="80" class="fas fa-chevron-left mr-2"></i><span id="12:83"
+                    orderindex="81">上一步</span></button>
+            <div id="12:84" orderindex="81"
+                class="card-shadow border-t-solid border-r-solid border-b-solid border-l-solid flex items-center h-[50px] pr-4 pl-4 border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+                style="background-color: rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+                <span id="12:85" orderindex="80" class="text-[14px]">自动演示中</span>
+                <div id="12:86" orderindex="81" style="background-color: rgba(255, 255, 255, 1);"
+                    class="relative w-[16px] h-[16px] ml-2">
+                    <div id="12:87" orderindex="80" style="background-color: rgba(0, 0, 0, 1);"
+                        class="absolute top-[4px] left-[4px] w-[8px] h-[8px]"></div>
+                </div>
+            </div><button id="12:88" orderindex="82"
+                class="card-shadow border-t-solid border-r-solid border-b-solid border-l-solid flex justify-center items-center w-[200px] h-[50px] border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px] text-[16px] font-bold"
+                style="background-color: rgba(0, 0, 0, 1); text-transform: uppercase; color: rgba(255, 255, 255, 1); border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);"><span
+                    id="12:89" orderindex="80">下一步</span><i id="12:90" orderindex="81"
+                    class="fas fa-chevron-right ml-2"></i></button>
+        </div>
+    </main>
+    <footer id="12:91" orderindex="82" class="flex justify-center items-center w-full mt-8 pb-8">
+        <div id="12:92" orderindex="80"
+            class="pixel-pattern border-t-solid border-r-solid border-b-solid border-l-solid w-[400px] h-[8px] border-t-solid border-r-solid border-b-solid border-l-solid border-t-[2px] border-r-[2px] border-b-[2px] border-l-[2px]"
+            style="border-top-color: rgba(0, 0, 0, 1); border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1); border-left-color: rgba(0, 0, 0, 1);">
+        </div><span id="12:93" orderindex="81" class="ml-4 text-[12px]">任务撮合完成后将自动跳转到竞价展示页</span>
+    </footer>
+</body>
+
+</html>

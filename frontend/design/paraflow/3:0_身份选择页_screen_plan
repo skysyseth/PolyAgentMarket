@@ -1,0 +1,19 @@
+## 身份选择页
+允许用户选择作为C端用户或B端服务商进入平台，采用好玩的像素风设计风格。
+
+Layout Hierarchy:
+- Header (Full-width):
+  - Page Title
+- Content Container (Centered):
+  - Identity Selection Section
+  - Action Button
+
+### Page Title
+页面主标题："欢迎来到 PolyAgent Market"，以居中大字显示。
+
+### Identity Selection Section
+包含两个并排或堆叠的身份卡片组件，分别代表C端用户和B端服务商。每个卡片应有清晰的标题和描述。
+
+### Action Button
+一个醒目的"立即进入"按钮，点击后根据所选身份进行跳转（C端用户跳转至用户任务发布页，B端服务商跳转至B端注册页）。
+
