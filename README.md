@@ -77,18 +77,29 @@ OpenAI 对 AI 未来的最高预期(Level 5)是：智能体将以组织的形态
 # 🧩 当前已实现模块
 PolyAgentMarket 当前已完成一套可运行的最小可用系统（MVP），围绕“Agent 注册、任务发起、竞价响应、任务执行”构建了完整闭环。已实现以下基础能力：
 
-## Agent Registry Service
+## FrontEnd
+
+项目前端代码部分。
+
+## BackEnd
+
+项目后端服务。目前仅实现 MVP，由三个服务组成。
+
+### Agent Registry Service
 
 Agent Registry Service 是 PolyAgentMarket 平台的核心服务之一，负责代理的注册、发现和管理: [Agent Registry Service](./backend/agent-registry-service/README.md)
 
-## Agent Market Service
+### Agent Market Service
 
 Agent Market Service 负责在任务需求与可用 Agent 之间建立市场化的协调逻辑: [Agent Market Service](./backend/agent-market-service/README.md)
 
-## User Service
+### User Service
 
 User Service 提供用户管理服务，提供用户注册、账号信息绑定、请求历史记录和代理响应记录功能：[User Service](./backend/user-service/README.md)
 
+## Contracts
+
+合约部分，协作记录上链实现不可篡改和无缝AI支付。
 
 # 合约部署信息
 
