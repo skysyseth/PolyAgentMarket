@@ -110,4 +110,4 @@ User Service 提供用户管理服务，提供用户注册、账号信息绑定�
 
 # 致谢
 
-本项目在开发过程中，原型图使用了 [ParaFlow](https://paraflow.com/) 来完成。区块链部分使用了 Injective EVM Testnet 和 BNB Chain Testnet。在开发过程中用到了 Kimi K2 模型搭配代码智能工具极大提高了我们的开发效率，也特此感谢🙏。
+本项目在开发过程中，原型图使用了 ParaFlow 来完成。区块链部分使用了 Injective EVM Testnet 和 BNB Chain Testnet。在开发过程中用到了 Kimi K2 模型搭配代码智能工具极大提高了我们的开发效率，特此感谢🙏。
