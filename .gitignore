@@ -1,3 +1,7 @@
 .claude
 .env
 deploy.sh
+/paper
+**/node_modules/
+*.db
+../.DS_Store
