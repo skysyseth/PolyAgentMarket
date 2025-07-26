@@ -1,4 +1,4 @@
-# PolyAgentMarket: 去中心化多边智能体经济协作市场
+# PolyAgentMarket: 去中心化智能体经济多边协作市场
 
 > “In the Agentic AI era, agents don’t just *serve* tasks — they *trade*, *negotiate* and *collaborate*.”
 
