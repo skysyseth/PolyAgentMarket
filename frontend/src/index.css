@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 像素风格自定义样式 */
+@layer components {
+  .pixel-border {
+    @apply border-2 border-solid border-black;
+  }
+  
+  .pixel-input {
+    @apply bg-white border-2 border-black;
+  }
+  
+  .pixel-input:focus {
+    @apply outline-none shadow-pixel-focus border-black;
+  }
+  
+  .pixel-button {
+    @apply border-2 border-black bg-black text-white font-bold uppercase transition-transform duration-150;
+  }
+  
+  .pixel-button:hover {
+    @apply -translate-x-0.5 -translate-y-0.5 shadow-pixel-hover;
+  }
+  
+  .pixel-button:disabled {
+    @apply opacity-50 transform-none shadow-none cursor-not-allowed;
+  }
+  
+  .pixel-card {
+    @apply bg-white border-2 border-black shadow-pixel;
+  }
+  
+  .pixel-card:hover {
+    @apply -translate-x-0.5 -translate-y-0.5 shadow-pixel-hover;
+  }
+  
+  .pixel-title {
+    @apply font-bold uppercase tracking-pixel;
+  }
+  
+  .active-card {
+    @apply -translate-x-0.5 -translate-y-0.5;
+  }
+  
+  .login-option-card {
+    @apply pixel-card cursor-pointer transition-transform duration-150;
+  }
+  
+  .account-card {
+    @apply pixel-card cursor-pointer transition-transform duration-150;
+  }
+  
+  .back-button {
+    @apply pixel-border bg-white text-black px-4 py-2 cursor-pointer transition-transform duration-150;
+  }
+  
+  .back-button:hover {
+    @apply -translate-x-px -translate-y-px shadow-pixel;
+  }
+  
+  .node-label {
+    @apply uppercase text-xs font-bold;
+  }
+  
+  .pixel-animation-container {
+    @apply relative pixel-border;
+  }
+  
+  .bidding-card {
+    @apply pixel-card transition-transform duration-150 cursor-pointer;
+  }
+  
+  .sorting-option {
+    @apply px-4 py-2 cursor-pointer border-2 border-black bg-white;
+  }
+  
+  .sorting-option.active {
+    @apply bg-black text-white;
+  }
+  
+  .pixel-progress {
+    @apply h-4;
+  }
+  
+  .description-box {
+    @apply overflow-y-auto h-20;
+  }
+
+  /* 自定义滚动条样式 */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  
+  .scrollbar-thumb-black {
+    scrollbar-color: black transparent;
+  }
+  
+  .scrollbar-track-gray-200 {
+    scrollbar-color: black #e5e7eb;
+  }
+  
+  .scrollbar-thumb-gray-400 {
+    scrollbar-color: #9ca3af transparent;
+  }
+
+  /* Webkit 滚动条样式 */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #e5e7eb;
+    border: 1px solid #000;
+  }
+  
+  .scrollbar-thumb-black::-webkit-scrollbar-thumb {
+    background: #000;
+    border: 1px solid #000;
+  }
+  
+  .scrollbar-thumb-black::-webkit-scrollbar-thumb:hover {
+    background: #333;
+  }
+  
+  .scrollbar-thumb-gray-400::-webkit-scrollbar-thumb {
+    background: #9ca3af;
+    border: 1px solid #6b7280;
+  }
+  
+  .scrollbar-thumb-gray-400::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+  }
+
+  /* 滚动条角落 */
+  .scrollbar-thin::-webkit-scrollbar-corner {
+    background: #e5e7eb;
+  }
+
+  /* 阴影效果 */
+  .shadow-pixel {
+    box-shadow: 4px 4px 0px 0px #000;
+  }
+  
+  .shadow-pixel-hover {
+    box-shadow: 6px 6px 0px 0px #000;
+  }
+  
+  .shadow-pixel-focus {
+    box-shadow: 2px 2px 0px 0px #000;
+  }
+
+  /* 像素化字体间距 */
+  .tracking-pixel {
+    letter-spacing: 0.05em;
+  }
+
+  /* 侧边栏样式 */
+  .sidebar-menu {
+    @apply transition-all duration-150;
+  }
+
+  /* 统计卡片样式 */
+  .stat-card {
+    @apply pixel-border bg-gray-50;
+  }
+
+  /* 固定底部栏样式 */
+  .fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top: 2px solid black;
+    box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  /* 服务项目样式 */
+  .service-item {
+    @apply border border-gray-200 transition-all duration-150;
+  }
+
+  .service-item:hover {
+    @apply bg-gray-50;
+  }
+}
+
+body {
+  font-family: 'Menlo', 'Consolas', 'Courier New', 'Hannotate SC', 'DengXian', monospace;
+  line-height: 1.4;
+} 

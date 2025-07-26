@@ -1,0 +1,245 @@
+.card-shadow {
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 1)
+}
+
+.active-card {
+    transform: translate(-2px, -2px)
+}
+
+.pixel-title {
+    letter-spacing: 1px
+}
+
+.__paraflow-fa-fas {
+    font-family: "Font Awesome 6 Free";
+    display: inline-block;
+    line-height: 1;
+    font-weight: 900;
+    font-style: normal
+}
+
+.pixel-pattern {
+    background-repeat: repeat
+}
+
+.BODY-9d693159425c9444dd78ead63a0ba315 {
+    background-color: rgba(255, 255, 255, 1)
+}
+
+.pixel-input:focus {
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 1);
+    border-top-color: rgba(0, 0, 0, 1);
+    border-right-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-left-color: rgba(0, 0, 0, 1)
+}
+
+.pixel-button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 1)
+}
+
+.pixel-input {
+    background-color: white;
+    border-top-color: rgba(0, 0, 0, 1);
+    border-right-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-left-color: rgba(0, 0, 0, 1);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px
+}
+
+.pixel-border {
+    border-top-color: rgba(0, 0, 0, 1);
+    border-right-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-left-color: rgba(0, 0, 0, 1);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px
+}
+
+.input-focus:focus {
+    outline-color: rgba(0, 0, 0, 1);
+    outline-style: solid;
+    outline-width: 2px
+}
+
+.description-box {
+    overflow-y: auto;
+    height: 80px
+}
+
+.node-label {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold
+}
+
+.pixel-animation-container {
+    position: relative;
+    border-top-color: rgba(0, 0, 0, 1);
+    border-right-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-left-color: rgba(0, 0, 0, 1);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px
+}
+
+.bidding-card:hover {
+    transform: translate(-2px, -2px)
+}
+
+.sorting-option.active {
+    background-color: black;
+    color: white
+}
+
+.pixel-progress {
+    background-repeat: repeat;
+    height: 16px
+}
+
+.login-option-card {
+    border-top-color: rgba(0, 0, 0, 1);
+    border-right-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-left-color: rgba(0, 0, 0, 1);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+.login-option-card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 1)
+}
+
+.__paraflow-fa-fab {
+    font-family: "Font Awesome 6 Brands";
+    display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal
+}
+
+.back-button {
+    border-top-color: rgba(0, 0, 0, 1);
+    border-right-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-left-color: rgba(0, 0, 0, 1);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px
+}
+
+.BODY-17182242636265f420b12e128141a47a {
+    font-family: "Menlo", "Consolas", "Courier_New", "Hannotate_SC", "DengXian", monospace;
+    line-height: 1.4
+}
+
+.header-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700
+}
+
+.login-option-icon {
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-top-color: rgba(0, 0, 0, 1);
+    border-right-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-left-color: rgba(0, 0, 0, 1);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px
+}
+
+.back-button:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 1)
+}
+
+.account-card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 1)
+}
+
+.account-icon {
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-top-color: rgba(0, 0, 0, 1);
+    border-right-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-left-color: rgba(0, 0, 0, 1);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px
+}
+
+.account-card {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 1);
+    border-top-color: rgba(0, 0, 0, 1);
+    border-right-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-left-color: rgba(0, 0, 0, 1);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px
+}
