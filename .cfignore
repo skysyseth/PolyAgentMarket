@@ -1,0 +1,21 @@
+# Cloudflare Pages 忽略文件
+# 避免处理不必要的目录，专注于前端构建
+
+# 忽略后端和合约相关目录
+backend/
+contracts/
+
+# 忽略开发工具文件
+.DS_Store
+*.log
+node_modules/
+
+# 忽略Git相关
+.git/
+.gitmodules
+
+# 只保留前端构建所需文件
+!frontend/
+!build-frontend.sh
+!package.json
+!README.md 
