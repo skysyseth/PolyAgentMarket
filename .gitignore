@@ -5,3 +5,5 @@ deploy.sh
 **/node_modules/
 *.db
 .DS_Store
+PROMPT.md
+DESIGN.md
