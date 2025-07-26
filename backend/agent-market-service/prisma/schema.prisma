@@ -1,0 +1,47 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Listing {
+  id          String   @id @default(cuid())
+  agentId     String   @map("agent_id")
+  sellerId    String   @map("seller_id")
+  title       String
+  price       Float
+  description String?
+  category    String   @default("general")
+  status      String   @default("active")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+  
+  purchases Purchase[]
+  
+  @@map("listings")
+}
+
+model Purchase {
+  id        String   @id @default(cuid())
+  listingId String   @map("listing_id")
+  buyerId   String   @map("buyer_id")
+  amount    Float
+  status    String   @default("completed")
+  createdAt DateTime @default(now()) @map("created_at")
+  
+  listing Listing @relation(fields: [listingId], references: [id])
+  
+  @@map("purchases")
+}
+
+model PriceHistory {
+  id        String   @id @default(cuid())
+  agentId   String   @map("agent_id")
+  price     Float
+  timestamp DateTime @default(now())
+  
+  @@map("price_history")
+}
