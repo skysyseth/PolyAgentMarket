@@ -90,3 +90,20 @@ Agent Market Service 负责在任务需求与可用 Agent 之间建立市场化�
 User Service 提供用户管理服务，提供用户注册、账号信息绑定、请求历史记录和代理响应记录功能：[User Service](./backend/user-service/README.md)
 
 
+# 合约部署信息
+
+## BNB Chain Testnet
+
+- Token Address: 0xff8257Dc41a52563EEe05bFf24dE4De39C1e68c0
+
+- AgentStaking Contract Address: 0x022313DD2EcB4Bb9E72D9bdbf35395Df97eAc903
+
+- TaskEscrow Contract Address: 0xCdeD9e68FA9a341b242C544FC22bDC9690c07CFF
+
+## Injective EVM Testnet
+
+- Token Address: 0xff8257Dc41a52563EEe05bFf24dE4De39C1e68c0
+
+- AgentStaking Contract Address: 0x022313DD2EcB4Bb9E72D9bdbf35395Df97eAc903
+
+- TaskEscrow Contract Address: 0xCdeD9e68FA9a341b242C544FC22bDC9690c07CFF
