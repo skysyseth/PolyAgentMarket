@@ -1,0 +1,32 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Agent {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  version     String   @default("1.0.0")
+  author      String
+  email       String
+  repository  String?
+  tags        String
+  capabilities String
+  endpoint    String
+  ipAddress   String   @default("127.0.0.1")
+  port        Int      @default(3000)
+  publicKey   String
+  isActive    Boolean  @default(true)
+  rating      Float    @default(0.0)
+  totalRating Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
