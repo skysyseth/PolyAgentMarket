@@ -1,0 +1,69 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./user.db"
+}
+
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  username    String   @unique
+  password    String
+  displayName String?
+  avatar      String?
+  bio         String?
+  walletAddress String?
+  twitter     String?
+  github      String?
+  website     String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  requests    Request[]
+  responses   Response[]
+}
+
+model Request {
+  id        String   @id @default(cuid())
+  userId    String
+  agentId   String
+  content   String
+  type      String   @default("text")
+  status    String   @default("pending")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  user      User     @relation(fields: [userId], references: [id])
+  responses Response[]
+}
+
+model Response {
+  id        String   @id @default(cuid())
+  requestId String
+  agentId   String
+  userId    String
+  content   String
+  type      String   @default("text")
+  metadata  Json?
+  createdAt DateTime @default(now())
+  
+  request   Request  @relation(fields: [requestId], references: [id])
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+model Agent {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  endpoint    String
+  version     String   @default("1.0.0")
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
