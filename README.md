@@ -1,5 +1,12 @@
 # PolyAgentMarket: 去中心化智能体经济多边协作市场
 
+演示视频：（点击下方 YouTube 链接 ⬇️）
+
+<a href="https://www.youtube.com/watch?v=tWt9BZYl8SY" style="display: inline-block; width: 45%; text-align: left; padding-left: 10px;">
+  <img src="https://img.shields.io/badge/Demo-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="Youtube Demo" style="transform: scale(1.2);">
+</a>
+
+
 > “In the Agentic AI era, agents don’t just *serve* tasks — they *trade*, *negotiate* and *collaborate*.”
 
 ## 📌 我们为什么要做这件事？
